@@ -18,7 +18,27 @@ A classic 2D arcade shooter developed to demonstrate **Object-Oriented Programmi
 ## 📋 How to Run
 
 1. **Clone the repository**:
+
    ```bash
    git clone [https://github.com/ceka1986/space-invaders-pygame.git](https://github.com/ceka1986/space-invaders-pygame.git)
    cd space-invaders-pygame
    ```
+
+2. **Set up a Virtual Environment**:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3. **Install Dependencies**:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. **Run the Game**:
+
+```bash
+python main.py
+```
